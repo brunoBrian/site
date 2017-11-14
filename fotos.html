@@ -1,0 +1,199 @@
+<!Doctype html>
+	<html>
+		<head>
+
+			<meta charset="utf-8">
+    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		 <meta http-equiv="X-UA-Compatible" content="IE=8">
+      		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<title>Site Pessoal | Fotos</title>	
+
+			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+			<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="css/ie.css">
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+			<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+			<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		    <script type='text/javascript' src='js/scripts.js'></script>
+
+			<!-- Add mousewheel plugin (this is optional) -->
+			<script type="text/javascript" src="lightbox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+			<!-- Add fancyBox main JS and CSS files -->
+			<script type="text/javascript" src="lightbox/source/jquery.fancybox.js?v=2.1.5"></script>
+			<link rel="stylesheet" type="text/css" href="lightbox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+			<!-- Add Button helper (this is optional) -->
+			<link rel="stylesheet" type="text/css" href="lightbox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+			<script type="text/javascript" src="lightbox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+			<!-- Add Thumbnail helper (this is optional) -->
+			<link rel="stylesheet" type="text/css" href="lightbox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+			<script type="text/javascript" src="lightbox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+			<!-- Add Media helper (this is optional) -->
+			<script type="text/javascript" src="lightbox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+			<!--[if lt IE 10]>
+       			<link href="css/ie.css" rel="stylesheet">
+     	    <![endif]-->
+
+
+
+		</head>
+		<body> 
+
+			<div id="fundoFoto"  >
+				<div id= "cabecalho">
+			       <div class="nbr">
+						  <a id="inicio"href="index.html" >Início</a>
+						  <a id="curriculo"href="curriculo.html">Currículo</a>
+						  <a id="fotos"href="fotos.html">Fotos</a>
+						  <a id="video"href="video.html">Vídeos</a>
+						</div>
+			    </div>
+   
+				
+				<div class="container">
+				  <br>
+				  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				    
+				    <ol class="carousel-indicators">
+				      <li data-target="#myCarousel" data-slide-to="0" ></li>
+				      <li data-target="#myCarousel" data-slide-to="1"class="active"></li>
+				      <li data-target="#myCarousel" data-slide-to="2"></li>
+				      <li data-target="#myCarousel" data-slide-to="3"></li>
+				    </ol>
+				     <!--Wrapper for slides -->
+				    <div class="carousel-inner" role="listbox">
+
+					      <div class="item "> <img src="imagens/praia.jpg" ></div>
+					      <div class="item active"><img src="imagens/deus.jpg" > </div>
+					      <div class="item"> <img src="imagens/natureza.jpg" > </div>
+					      <div class="item"><img src="imagens/paisagem.jpg" ></div>
+					        
+				      
+				    </div>
+
+				     <!--Left and right controls -->
+				    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">&lsaquo;</span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">&rsaquo;</span>
+				    </a>
+				  </div>
+				</div>
+
+		<!-- Fotos -->
+
+				<div>
+
+					<table>
+				        <tbody>
+				            	<caption id="tituloFotos"><b>Minhas Fotos</b></caption>
+				                <tr>
+				                    <td>
+										<a class="fancybox" href="imagens/bruno3.jpg" data-fancybox-group="gallery" >
+											<img id="albumFotos1" src="imagens/bruno3.jpg" alt="" />
+										</a>
+				                    	<!--<img id="albumFotos1"src="imagens/bruno3.jpg" >-->
+				                    </td>
+				                    <td>
+										<a class="fancybox" href="imagens/bruno6.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos2"src="imagens/bruno6.jpg" >
+										</a>
+				                    </td>
+				                    <td>
+				                    	<a class="fancybox" href="imagens/bruno2.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos3"src="imagens/bruno2.jpg" >
+										</a>
+				                    </td>
+				                    
+				                </tr>    
+				                <tr id="fotosMeio">
+
+
+				                     <td>
+				                     	<a class="fancybox" href="imagens/bruno10.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos4"src="imagens/bruno10.jpg" >
+										</a>
+				                    </td>
+				                     <td>
+				                     	<a class="fancybox" href="imagens/bruno5.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos5"src="imagens/bruno5.jpg" >
+										</a>
+				                    </td>
+				                    <td>
+				                    	<a class="fancybox" href="imagens/bruno4.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos6"src="imagens/bruno4.jpg" >
+										</a>
+				                    </td>
+				                
+				                </tr>
+				                <tr>
+				                	<td>
+				                		<a class="fancybox" href="imagens/bruno9.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos7"src="imagens/bruno9.jpg" >
+										</a>
+				                    </td>
+				                    <td>
+				                    	<a class="fancybox" href="imagens/bruno7.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos8"src="imagens/bruno7.jpg" >
+										</a>	
+				                    </td>	
+				                     <td>
+				                     	<a class="fancybox" href="imagens/bruno8.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos9"src="imagens/bruno8.jpg" >
+										</a>
+				                     	
+				                    </td>
+				                </tr>
+
+				                <tr>
+				                	<td>
+				                		<a class="fancybox" href="imagens/bruno11.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos10"src="imagens/bruno11.jpg" >
+										</a>
+				                    </td>
+				                    <td>
+				                    	<a class="fancybox" href="imagens/bruno12.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos11"src="imagens/bruno12.jpg" >
+										</a>
+				                    </td>
+				                     <td>
+				                     	<a class="fancybox" href="imagens/bruno13.jpg" data-fancybox-group="gallery">
+											<img id="albumFotos12"src="imagens/bruno13.jpg" >
+										</a>
+				                     	
+				                    </td>
+				                </tr>
+				            
+				            
+				        </tbody>
+	    			</table>
+
+				</div>
+
+
+
+
+
+
+				  
+				  <div class="rodapeFoto">
+					<p id="paragraforodaPe">© Copyright 2016 Bruno Brian. Todos os direitos reservados</p>
+				</div>
+			</div>
+
+		</body>
+	</html>

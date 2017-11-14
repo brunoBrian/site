@@ -1,0 +1,131 @@
+/* dispositivo no formato paisagem e abaixos */
+@media (max-width: 480px) { 
+	#albumFotos1, #albumFotos2, #albumFotos3, #albumFotos4, #albumFotos5, #albumFotos6, #albumFotos7, #albumFotos8, #albumFotos9, #albumFotos10, #albumFotos11,#albumFotos12{
+		width: 29em;
+		height: 10em;
+	}
+	.rodapeFoto{
+		width: 89.9%;
+		height: 4em;
+		margin-bottom: 1%;
+		margin-left: 4%;
+	}
+	.rodapeInicio{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeVideo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeCurriculo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	table{
+		width: 92%;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+}
+ 
+/* dispositivo em paisagem até os tablets em formato porta-retrato */
+@media (min-width: 480px) and (max-width: 767px) {
+	#albumFotos1, #albumFotos2, #albumFotos3, #albumFotos4, #albumFotos5, #albumFotos6, #albumFotos7, #albumFotos8, #albumFotos9, #albumFotos10, #albumFotos11,#albumFotos12{
+		width: 29em;
+		height: 12em;
+	}
+	.rodapeFoto{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeInicio{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeVideo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeCurriculo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	table{
+		width: 92%;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+}
+ 
+/* tables em formato porta retrato até os desktos no formato paisagem */
+@media (min-width: 768px) and (max-width: 979px) {
+	#albumFotos1, #albumFotos2, #albumFotos3, #albumFotos4, #albumFotos5, #albumFotos6, #albumFotos7, #albumFotos8, #albumFotos9, #albumFotos10, #albumFotos11,#albumFotos12{
+		width: 29em;
+		height: 17em;
+	}
+	.rodapeFoto{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeInicio{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeVideo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeCurriculo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	#albumFotos1, #albumFotos2, #albumFotos3, #albumFotos4, #albumFotos5, #albumFotos6, #albumFotos7, #albumFotos8, #albumFotos9, #albumFotos10, #albumFotos11,#albumFotos12{
+		width: 27em;
+		height: 20em;
+	}
+	.rodapeFoto{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeInicio{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeVideo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeCurriculo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+}
+ 
+/* Desktop maiores */
+@media (min-width: 1200px) { 
+	#albumFotos1, #albumFotos2, #albumFotos3, #albumFotos4, #albumFotos5, #albumFotos6, #albumFotos7, #albumFotos8, #albumFotos9, #albumFotos10, #albumFotos11,#albumFotos12{
+		width: 29em;
+		height: 23em;
+	}
+	.rodapeFoto{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeInicio{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeVideo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	.rodapeCurriculo{
+		height: 4em;
+		margin-bottom: 1%;
+	}
+	
+ }

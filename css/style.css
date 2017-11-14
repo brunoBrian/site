@@ -1,0 +1,1634 @@
+/* -------------------------------------- Header -----------------------------*/
+
+#cabecalho{
+	position: relative;
+	height: 4%;
+	margin: auto;
+	text-transform: uppercase;
+  	font-family: courier;
+}
+
+#inicio{
+	position: relative;
+	background-color: #191970;
+	font-weight: bold;
+	padding: 5px  5px 5px 5px;
+}
+#curriculo{
+	position: relative;
+	background-color: #9400D3;
+	font-weight: bold;
+	padding: 5px  5px 5px 5px;}
+.nbr a{
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+#fotos{
+	position: relative;
+	background-color: #8B4513;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 5px  5px 5px 5px;
+}
+#video{
+	position: relative;
+	background-color: green;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 5px  5px 5px 5px;
+}
+
+/* ----------------------------------------------Meio Inicio ----------------------------------------*/
+#meio{
+	margin: auto;
+	width: 85%;
+}
+#blocoEsquerda{	
+	width: 29%;
+	margin-top: 2em;
+	margin-right: 17.7px;
+}
+#blocoDireita{
+	width: 69.4%;
+	margin: auto;
+	height: 100%;
+	position: relative;
+	margin-top: 2em;
+}
+#fundo{
+	height: 100%;
+	background: url("../imagens/fundo3.jpg");
+	position: relative;
+}
+#blocoCurriculo{
+	position: relative;
+	background-color: #151111;
+	width: 100%;
+	margin-bottom: 10px;
+	display: table;
+}
+#blocoResume{
+	background-color:  #151111;
+	margin-top: 16px;
+	width: 100%;
+	display: table;
+	position: relative;
+}
+#imgBrunoPerfil{
+	width: 100%;
+	max-width: 100%;
+}
+#imgBruno1{
+	width: 100%;
+	height: 17.8em;
+	max-width: 100%;
+}
+.blocoCurriculoContato{
+	background-color:#352F2F;
+	margin-top: 1em;
+	margin-bottom: 15px;
+}
+#textoApresentacao{
+	font-size: 60px;
+	padding-left: 10px;
+	padding-top: 30px;
+	font-family: Helvetica;
+}	
+#textoApresentacao a{
+	color: Coral;
+}
+#textoApresentacaoResume{
+	font-size: 60px;
+	padding-left: 10px;
+	font-family: Helvetica;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}	
+#textoApresentacaoResume a{
+	color: Coral;
+}
+#tituloApresentacao{
+	padding-left: 12px;
+	padding-top: 19px;
+	color: Coral;
+}
+.apresentacao{
+	background-color: #352F2F;
+}
+#paragrafoApresentacao{
+	padding-left: 12px;
+	color: white;
+	padding-bottom: 27px;
+	padding-right: 5px;
+}
+.linkverCurriculo:hover{
+	text-decoration: none;
+	color: white;
+}
+.linkverCurriculo{
+	color: blue;
+	font-weight: bold;
+}
+#linkVer{
+	color: white;
+}
+.paragrafoMiniCurriculo p{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+	font-family: Helvetica;
+	font-size: 1em;
+}
+.marcacao{
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 1em;
+}
+#titleCurriculo{
+	margin-left: 20px;
+	padding-top: 25px;
+	color: Coral;
+	font-size: 2em;
+}
+#tituloApresentacaoIngles{
+	padding-left: 12px;
+	padding-top: 13px;
+	height: 15px;
+	padding-bottom: 25px;
+	color: Coral;
+}
+#paragrafoApresentacaoIngles{
+	padding-bottom: -5px;
+	padding-left: 12px;
+	color: white;
+	padding-bottom: 30px;
+	padding-right: 5px;
+	font-family: Helvetica;
+}
+.rodapeInicio{
+	position: relative;
+	background-color: #352F2F;
+	width: 85%;
+	margin-left: 7.5%;
+	margin-top: 1%;
+	margin-bottom: 10px;
+
+}
+/*------------------------------------Rodapé Curriculo---------------------------------*/
+.rodape{
+	position: relative;
+	background-color: #352F2F;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#paragraforodaPe{
+	color: white;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 20px;
+	font-family: Helvetica;
+}
+/* ----------------------------Curriculo----------------------------- -----------------------------------------------------------------------------*/
+#fundoCurriculo{
+	height: 100%;
+	background: url("../imagens/fundo3.jpg");
+	position: relative;
+}
+#divImagem{
+	width: 70%;
+	margin: auto;
+	position: relative;
+	margin-top: 30px;
+}
+#paragOcultar{
+	color: black;
+	background-color: #c3c3c3;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+	position: relative;
+	margin: auto;
+	min-width: 21em;
+	cursor: pointer;
+}
+#imagem{
+	width: 100%;
+	height: 20em;
+	min-width: 21em;
+}
+.row{
+	width: 70%;
+	height: 70%;
+	margin: auto;
+}
+#esquerda{
+	margin: auto;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color:  #352F2F;
+	width: 65.5%;
+	height: 53%;
+
+}
+#direita{
+	margin: auto;
+	margin-top: 10px;
+	width: 32.7%;
+	height: 53%;
+}
+#textoCurriculoHtml{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+	font-family: helvetica;
+}
+.rodapeCurriculo{
+	position: relative;
+	background-color: #352F2F;
+	width: 70%;
+	height: 6%;
+	margin: auto;
+	margin-left: 15%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-width: 20em;
+}
+#imagemMovimento{
+	height: 300px;
+	width: 100%;
+}
+#titleAtencao{
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+	padding-top: 14px;
+	font-size: 24px;
+}
+#atencao{
+	background-color: #352F2F;
+	height: 20%;
+	width: 100%;
+	padding-bottom: 40px;
+
+}
+#paragrafoAtencao{
+	margin-left: 20px;
+	margin-right: 15px;
+	color: white;
+}
+.endereço{
+	margin-top: 50px;
+	text-align: center;
+	color: black;
+	font-size: 17px;
+}
+#email:hover{
+	color: blue;
+	text-decoration: none;
+}
+#email{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* ----------------------------FOTO----------------------------- */
+.rodapeFoto{
+	position: relative;
+	background-color: #352F2F;
+	width: 78.7%;
+	height: 6%;
+	margin-left: 10.68%;
+	margin-right: 11.1%;
+	margin-bottom: 1%;
+}
+#fundoFoto{
+	height: 100%;
+	width: 100%;
+	position: relative;*/
+}
+#myCarousel{
+	width: 100%;
+	height: 100%;
+
+}
+.item{
+	width: 100%;
+	height: 10%;
+    margin: auto;
+}
+.carousel-indicators{
+	margin-top: 50%;
+	margin-right: 45%
+}
+.container{
+	width: 54%;
+	margin-top: 1%;
+	margin-left: 23%;
+	margin-right: 23%;
+}
+/*---------------------tabela Fotos --------------*/
+#tituloFotos{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0.5%;
+}
+table, td {
+	border: 8px transparent solid;
+}
+table {
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 4%;
+	margin-right: 10%;
+}
+td{
+	width: 30%;
+	height: 40%;
+}
+#albumFotos1{
+	width: 100%;
+	height: 30%;
+}
+#albumFotos2{
+	width: 100%;
+	height: 41%;
+}
+#albumFotos3{
+	width: 100%;
+	height: 30.5%;
+}
+#albumFotos4{
+	width: 100%;
+	height: 42%;
+}
+#albumFotos5{
+	width: 100%;
+	height: 26.2%;
+}
+#albumFotos6{
+	width: 100%;
+	height: 30%;
+}
+#albumFotos7{
+	width: 100%;
+	height: 63%;
+}
+#albumFotos8{
+	width: 100%;
+	height: 42.5%;
+}
+#albumFotos9{
+	width: 100%;
+	height: 47.5%;
+}
+#albumFotos10{
+	width: 100%;
+	height: 73.2%;
+}
+#albumFotos11{
+	width: 100%;
+	height: 42.5%;
+}
+#albumFotos12{
+	width: 100%;
+	height: 42.5%;
+}
+
+/*---------------------------------------------------Video----------------------------------*/
+#divVideo{
+	height: 38em;
+	margin-bottom: 2%;
+}
+#videoYouTube{
+	width: 60%;
+	height: 94.5%;
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#fundoVideo{
+		height: 100%;
+		width: 100%;
+		background: url("../imagens/fundo2.jpg");
+		position: relative;
+	}
+
+
+/* dispositivo no formato paisagem e abaixos */
+@media (max-width: 480px) { 
+/*---------------------------------------------Cabeçalho--------------------------------------------*/
+
+	#cabecalho{
+		position: relative;
+		width: 100%;
+		height: 4em;
+		margin: auto;
+		text-transform: uppercase;
+	  	font-family: courier;
+	}
+	.nbr a{
+		font-size: 15px;
+		color: white;
+		text-decoration: none;
+	}
+	.nbr{
+		width: 100%;
+		height: 12px;
+		text-align: center;
+	}
+	#inicio{
+		position: relative;
+		font-weight: bold;
+		padding: 5px  5px 5px 5px;
+	}
+	#curriculo{
+		position: relative;
+		font-weight: bold;
+		padding: 5px  5px 5px 5px;
+	}
+
+	#fotos{
+		position: relative;
+		font-weight: bold;
+		margin-top: 10px;
+		padding: 5px  5px 5px 5px;
+	}
+	#video{
+		position: relative;
+		font-weight: bold;
+		margin-top: 10px;
+		padding: 5px  5px 5px 5px;
+	}
+/*---------------------------------------------Curriculo--------------------------------------------*/
+	#fundoCurriculo{
+		height: 100%;
+		position: relative;
+	}
+	#divImagem{
+		margin-left: 3%;
+		margin-right: 3%;
+		width: 94%
+	}
+	#esquerda{
+		width: 100%;
+	}
+	.row{
+		margin-left: 3%;
+		margin-right: 3%;
+		width: 94%
+	}
+	#direita{
+		width: 100%;
+	}
+	#paragOcultar{
+		background-color: transparent;
+	}
+	.rodapeCurriculo{
+		width: 94%;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+/*---------------------------------------------INICIO-----------------------------------------------*/
+	body{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#fundo{
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	#blocoCurriculo{
+		margin-top: -20px;
+	}
+	#meio{
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#blocoEsquerda{
+		width: 100%;
+	}
+	#blocoDireita{
+		width: 100%;
+	}
+	.rodapeInicio{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#imgBrunoPerfil{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+/*---------------------------------------------Fotos------------------------------------------------*/
+	.rodapeFoto{
+		position: relative;
+		background-color: #352F2F;
+		width: 89.5%;
+		height: 6%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-bottom: 1%;
+	}
+	#fundoFoto{
+		height: 100%;
+		width: 100%;
+		background: url("../imagens/fundo2.jpg");
+		position: relative;
+	}
+	#myCarousel{
+		width: 100%;
+		height: 100%;
+	}
+	.item{
+		width: 100%;
+		height: 10%;
+	    margin: auto;
+	}
+	.carousel-indicators{
+		margin-top: 47%;
+		margin-right: 39%
+	}
+	.container{
+		width: 75%;
+		margin-top: 1%;
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+	/*---------------------tabela Fotos --------------*/
+	#tituloFotos{
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 0.5%;
+	}
+	table, td {
+		border: 5px transparent solid;	
+	}
+	table {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 4%;
+		margin-right: 10%;
+	}
+	td{
+		width: 30%;
+		height: 40%;
+	}
+	#albumFotos1{
+		width: 100%;
+		height: 14.8%;
+	}
+	#albumFotos2{
+		width: 100%;
+		height: 20%;
+	}
+	#albumFotos3{
+		width: 100%;
+		height: 15%;
+	}
+	#albumFotos4{
+		width: 100%;
+		height: 21.5%;
+	}
+	#albumFotos5{
+		width: 100%;
+		height: 13.5%;
+	}
+	#albumFotos6{
+		width: 100%;
+		height: 15.5%;
+	}
+	#albumFotos7{
+		width: 100%;
+		height: 29.7%;
+	}
+	#albumFotos8{
+		width: 100%;
+		height: 20%;
+	}
+	#albumFotos9{
+		width: 100%;
+		height: 22.2%;
+	}
+	#albumFotos10{
+		width: 100%;
+		height: 36.3%;
+	}
+	#albumFotos11{
+		width: 100%;
+		height: 21%;
+	}
+	#albumFotos12{
+		width: 100%;
+		height: 21%;
+	}
+/*---------------------------------------------Video------------------------------------------------*/
+	#fundoVideo{
+		height: 100%;
+		width: 100%;
+		background: url("../imagens/fundo2.jpg");
+		position: relative;
+	}
+	#divVideo{
+		height: 15em;
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+	#videoYouTube{
+		width: 80%;
+		height: 94.5%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#divVideo2{
+		height: 15em;
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+	#videoYouTube2{
+		width: 79%;
+		height: 94.5%;
+		margin-left: 10.2%;
+		margin-right: 10%;
+	}
+	.rodapeVideo{
+		position: relative;
+		background-color: #352F2F;
+		width: 79%;
+		height: 6%;
+		margin-left: 10.2%;
+		margin-right: 10%;
+		margin-bottom: 3%;
+	}
+
+ }
+ 
+/* dispositivo em paisagem até os tablets em formato porta-retrato */
+@media (min-width: 481px) and (max-width: 767px) { 
+/*---------------------------------------------Cabeçalho--------------------------------------------*/
+	body{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#cabecalho{
+		width: 94.5%;
+		height: 3em;
+		text-transform: uppercase;
+	  	font-family: courier;
+	}
+	.nbr{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		padding-top: 1.5%;
+	}
+	#inicio{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 18px;
+	}
+	#curriculo{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 18px;
+	}
+
+	#fotos{
+		position: relative;
+		font-weight: bold;
+		margin-top: 10px;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 18px;
+	}
+	#video{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 18px;
+	}
+	#contato{
+		position: relative;
+		background-color: brown;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 18px;
+	}
+/*---------------------------------------------Curriculo--------------------------------------------*/
+	#fundoCurriculo{
+		height: 100%;
+		position: relative;
+	}
+	#divImagem{
+		width: 84%;
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	.row{
+		width: 84%;
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	#esquerda{
+		width: 100%;
+
+	}
+	#paragOcultar{
+		background-color: transparent;
+	}
+	#direita{
+		width: 84%;
+		margin-right: 8%;
+		margin-left: 8%
+	}
+	.rodapeCurriculo{
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+/*---------------------------------------------Inicio-----------------------------------------------*/
+	#blocoCurriculo{
+		margin-top: -20px;
+	}
+	#meio{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+	}
+	#imgBrunoPerfil{
+		max-width: 80%;
+		height: 22em;
+		margin-left: 10%;
+	}
+	#blocoEsquerda{
+		width: 100%;
+		height: 50%;
+	}
+	#blocoDireita{
+		width: 100%;
+	}
+	.rodapeInicio{
+		width: 80%;
+		margin-left: 10%;
+	}
+/*---------------------------------------------Fotos------------------------------------------------*/
+	.rodapeFoto{
+		position: relative;
+		background-color: #352F2F;
+		width: 88.7%;
+		height: 6%;
+		margin-left: 4.6%;
+		margin-right: 11.1%;
+		margin-bottom: 1%;
+	}
+	#fundoFoto{
+		height: 100%;
+		width: 100%;
+		background: url("../imagens/fundo2.jpg");
+		position: relative;
+	}
+	#myCarousel{
+		width: 100%;
+		height: 100%;
+	}
+	.item{
+		width: 100%;
+		height: 10%;
+	    margin: auto;
+	}
+	.carousel-indicators{
+		margin-top: 50%;
+		margin-right: 43%
+	}
+	.container{
+		width: 75%;
+		margin-top: 1%;
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+	/*---------------------tabela Fotos --------------*/
+	#tituloFotos{
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 0.5%;
+	}
+	table, td {
+		border: 7px transparent solid;
+	}
+	table {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 4%;
+		margin-right: 10%;
+	}
+	td{	
+		width: 30%;
+		height: 40%;
+	}
+	#albumFotos1{
+		width: 100%;
+		height: 21%;
+	}
+	#albumFotos2{
+		width: 100%;
+		height: 28.5%;
+	}
+	#albumFotos3{
+		width: 100%;
+		height: 21.3%;
+	}
+	#albumFotos4{
+		width: 100%;
+		height: 28%;
+	}
+	#albumFotos5{
+		width: 100%;
+		height: 17.5%;
+	}
+	#albumFotos6{
+		width: 100%;
+		height: 20.1%;
+	}
+	#albumFotos7{
+		width: 100%;
+		height: 40%;
+	}
+	#albumFotos8{
+		width: 100%;
+		height: 27%;
+	}
+	#albumFotos9{
+		width: 100%;
+		height: 30%;
+	}
+
+
+	#albumFotos10{
+		width: 100%;
+		height: 45%;
+	}
+	#albumFotos11{
+		width: 100%;
+		height: 26%;
+	}
+	#albumFotos12{
+		width: 100%;
+		height: 26%;
+	}
+/*---------------------------------------------Video------------------------------------------------*/
+	#divVideo{
+		height: 25em;
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+	#videoYouTube{
+		width: 80%;
+		height: 94.5%;
+		margin-left: 10%;
+		margin-top: 1%;
+		margin-right: 10%;
+	}
+	#divVideo2{
+		height: 25em;
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+	#videoYouTube2{
+		width: 80%;
+		height: 94.5%;
+		margin-left: 10%;
+		margin-top: 1%;
+		margin-right: 10%;
+	}
+	.rodapeVideo{
+		position: relative;
+		background-color: #352F2F;
+		width: 80%;
+		height: 6%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 1%;
+	}
+}
+ 
+/* tables em formato porta retrato até os desktos no formato paisagem */
+@media (min-width: 768px) and (max-width: 979px) { 
+/*---------------------------------------------Cabeçalho--------------------------------------------*/
+
+	#cabecalho{
+		width: 64.1%;
+		height: 3em;
+		text-transform: uppercase;
+	  	font-family: courier;
+	}
+	.nbr{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		padding-top: 1.5%;
+	}
+	#inicio{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 20px;
+	}
+	#curriculo{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 20px;
+	}
+
+	#fotos{
+		position: relative;
+		font-weight: bold;
+		margin-top: 10px;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 20px;
+	}
+	#video{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 20px;
+	}
+	#contato{
+		position: relative;
+		background-color: brown;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 20px;
+	}
+/*---------------------------------------------Curriculo--------------------------------------------*/
+	#fundoCurriculo{
+		height: 100%;
+		position: relative;
+	}
+	#divImagem{
+		margin-left: 6%;
+		margin-right: 6%;
+		width: 88%;
+	}
+	.row{
+		margin-left: 6%;
+		margin-right: 6%;
+		width: 88%;
+	}
+	#esquerda{
+		width: 64.3%;
+	}
+	#paragOcultar{
+		background-color: transparent;
+	}
+	#direita{
+		width: 34%;
+
+	}
+	.rodapeCurriculo{
+		margin-left: 6%;
+		margin-right: 6%;
+		width: 88%;
+	}
+/*---------------------------------------------Inicio-----------------------------------------------*/
+	#meio{
+		margin-left: 3%;
+		margin-right: 3%;
+		width: 94%;
+	}
+	#imgBrunoPerfil{
+		max-width: 100%;
+	}
+	#blocoEsquerda{
+		width: 32%;
+	}
+	#blocoDireita{
+		width: 65.3%;
+	}
+	.rodapeInicio{
+		width: 93.7%;
+		margin-left: 3%;
+		margin-top: 2%;
+	}
+/*---------------------------------------------Fotos------------------------------------------------*/
+	.rodapeFoto{
+	position: relative;
+	background-color: #352F2F;
+	width: 78.2%;
+	height: 6%;
+	margin-left: 10.9%;
+	margin-right: 11.1%;
+	margin-bottom: 1%;
+	}
+	#fundoFoto{
+		height: 100%;
+		width: 100%;
+		background: url("../imagens/fundo2.jpg");
+		position: relative;*/
+	}
+	#myCarousel{
+		width: 100%;
+		height: 100%;
+	}
+	.item{
+		width: 100%;
+		height: 10%;
+	    margin: auto;
+	}
+	.carousel-indicators{
+		margin-top: 50%;
+		margin-right: 43%
+	}
+	.container{
+		width: 75%;
+		margin-top: 1%;
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+	/*---------------------tabela Fotos --------------*/
+	#tituloFotos{
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 0.5%;
+	}
+	table, td {
+		border: 7px transparent solid;
+	}
+	table {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 4%;
+		margin-right: 10%;
+	}
+	td{		
+		width: 30%;
+		height: 40%;
+	}
+	#albumFotos1{
+		width: 100%;
+		height: 26%;
+	}
+	#albumFotos2{
+		width: 100%;
+		height: 35%;
+	}
+	#albumFotos3{
+		width: 100%;
+		height: 26.3%;
+	}
+	#albumFotos4{
+		width: 100%;
+		height: 36%;
+	}
+	#albumFotos5{
+		width: 100%;
+		height: 22.5%;
+	}
+	#albumFotos6{
+		width: 100%;
+		height: 25.7%;
+	}
+	#albumFotos7{
+		width: 100%;
+		height: 52%;
+	}
+	#albumFotos8{
+		width: 100%;
+		height: 35%;
+	}
+	#albumFotos9{
+		width: 100%;
+		height: 39%;
+	}
+	#albumFotos10{
+		width: 100%;
+		height: 57%;
+	}
+	#albumFotos11{
+		width: 100%;
+		height: 33%;
+	}
+	#albumFotos12{
+		width: 100%;
+		height: 33%;
+	}
+/*---------------------------------------------Video------------------------------------------------*/
+	#divVideo{
+		height: 27em;
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+	#videoYouTube{
+		width: 76%;
+		height: 94.5%;
+		margin-left: 12%;
+		margin-top: 1%;
+		margin-right: 12%;
+	}
+	#divVideo2{
+		height: 27em;
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+	#videoYouTube2{
+		width: 76%;
+		height: 94.5%;
+		margin-top: 1%;
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+	.rodapeVideo{
+		position: relative;
+		background-color: #352F2F;
+		width: 76%;
+		height: 6%;
+		margin-left: 12%;
+		margin-right: 12%;
+		margin-bottom: 1%;
+	}
+}
+
+@media (min-width: 978px) and (max-width: 1199px) { 
+/*---------------------------------------------Cabeçalho--------------------------------------------*/
+
+	#cabecalho{
+		width: 62%;
+		height: 3em;
+		text-transform: uppercase;
+	  	font-family: courier;
+	}
+	.nbr{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		padding-top: 2%;
+	}
+	#inicio{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+	#curriculo{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+
+	#fotos{
+		position: relative;
+		font-weight: bold;
+		margin-top: 10px;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+	#video{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+/*---------------------------------------------Curriculo--------------------------------------------*/
+	#fundoCurriculo{
+		height: 100%;
+		position: relative;
+	}
+	.row{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#divImagem{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#esquerda{
+		width: 64%;
+	}
+	#direita{
+		width: 34.5%;
+	}
+	.rodapeCurriculo{
+		width: 80%;
+		margin-left: 10%;
+	}
+	#paragOcultar{
+		background-color: transparent;
+	}
+/*----------------------------------------------Inicio----------------------------------------------*/
+	#meio{
+		margin-left: 7%;
+		margin-right: 5%;
+		width: 86%;
+	}
+	#imgBrunoPerfil{
+		max-width: 100%;
+	}
+	#blocoEsquerda{
+		width: 32%;
+	}
+	#blocoDireita{
+		width: 65.3%;
+	}
+	.rodapeInicio{
+		width: 85.5%;
+		margin-left: 7%;
+		margin-right: 5%;
+		margin-top: 1%;
+	}
+/*----------------------------------------------Fotos-----------------------------------------------*/
+	.rodapeFoto{
+	position: relative;
+	background-color: #352F2F;
+	width: 78.4%;
+	height: 6%;
+	margin-left: 10.8%;
+	margin-right: 11.1%;
+	margin-bottom: 1%;
+	}
+	#fundoFoto{
+		height: 100%;
+		width: 100%;
+		background: url("../imagens/fundo2.jpg");
+		position: relative;*/
+	}
+	#myCarousel{
+		width: 100%;
+		height: 100%;
+		background-color: red;
+
+	}
+	.item{
+		width: 100%;
+		height: 10%;
+	    margin: auto;
+	}
+	.carousel-indicators{
+		margin-top: 50%;
+		margin-right: 45%
+	}
+	.container{
+		width: 66%;
+		margin-top: 1%;
+		margin-left: 17%;
+		margin-right: 17%;
+	}
+	/*---------------------tabela Fotos --------------*/
+	#tituloFotos{
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 0.5%;
+	}
+	table, td {
+		border: 8px transparent solid;
+		
+	}
+	table {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 4%;
+		margin-right: 10%;
+
+	}
+	td{
+		
+		width: 30%;
+		height: 40%;
+	}
+
+	#albumFotos1{
+		width: 100%;
+		height: 30%;
+	}
+	#albumFotos2{
+		width: 100%;
+		height: 40.9%;
+	}
+	#albumFotos3{
+		width: 100%;
+		height: 30.%;
+	}
+
+
+	#albumFotos4{
+		width: 100%;
+		height: 40%;
+	}
+	#albumFotos5{
+		width: 100%;
+		height: 25%;
+	}
+	#albumFotos6{
+		width: 100%;
+		height: 28.7%;
+	}
+
+
+	#albumFotos7{
+		width: 100%;
+		height: 59%;
+	}
+	#albumFotos8{
+		width: 100%;
+		height: 40%;
+	}
+	#albumFotos9{
+		width: 100%;
+		height: 44.3%;
+	}
+
+
+	#albumFotos10{
+		width: 100%;
+		height: 65%;
+	}
+	#albumFotos11{
+		width: 100%;
+		height: 37.7%;
+	}
+	#albumFotos12{
+		width: 100%;
+		height: 37.7%;
+	}
+/*----------------------------------------------Video-----------------------------------------------*/
+	#divVideo{
+		height: 27em;
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+	#videoYouTube{
+		width: 70%;
+		height: 94.5%;
+		margin-left: 15%;
+		margin-top: 1%;
+		margin-right: 15%;
+	}
+	#divVideo2{
+		height: 27em;
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+	#videoYouTube2{
+		width: 70%;
+		height: 94.5%;
+		margin-top: 1%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	.rodapeVideo{
+		position: relative;
+		background-color: #352F2F;
+		width: 70%;
+		height: 6%;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 1%;
+	}
+}
+ 
+/* Desktop maiores */
+@media (min-width: 1200px) { 
+/*-----------------------------------------------Cabeçalho------------------------------------------*/
+
+	#cabecalho{
+		width: 51%;
+		height: 3em;
+		text-transform: uppercase;
+	  	font-family: courier;
+	}
+	.nbr{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		padding-top: 2%;
+	}
+	#inicio{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+	#curriculo{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+
+	#fotos{
+		position: relative;
+		font-weight: bold;
+		margin-top: 10px;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+	#video{
+		position: relative;
+		font-weight: bold;
+		padding: 1.1% 1.1% 1.1% 1.1%;
+    	font-size: 25px;
+	}
+/*-----------------------------------------------Curriculo------------------------------------------*/
+	#fundoCurriculo{
+		height: 100%;
+		position: relative;
+	}
+	.row{
+		width: 70%;
+		margin-left: 14%;
+		margin-right: 15%;
+	}
+	#divImagem{
+		margin-left: 14%;
+		margin-right: 15%;
+		width: 70%;
+	}
+	#esquerda{
+		width: 66%;
+	}
+	#direita{
+		width: 32.%;
+		/*--*/
+	}
+	#paragOcultar{
+		background-color: transparent;
+	}
+	.rodapeCurriculo{
+		width: 70%;
+		margin-left: 14%;
+	}
+/*-----------------------------------------------Inicio---------------------------------------------*/
+	#meio{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+	}
+	#imgBrunoPerfil{
+		max-width: 100%;
+	}
+	#blocoEsquerda{
+		width: 32%;
+	}
+	
+	#blocoDireita{
+		width: 65.3%;
+	}
+	.rodapeInicio{
+		width: 79.4%;
+		margin-left: 10%;
+		margin-top: 1%;
+	}
+/*-----------------------------------------------Fotos----------------------------------------------*/
+	.rodapeFoto{
+	position: relative;
+	background-color: #352F2F;
+	width: 78.7%;
+	height: 6%;
+	margin-left: 10.69%;
+	margin-right: 11.1%;
+	margin-bottom: 1%;
+	}
+	#fundoFoto{
+		height: 100%;
+		width: 100%;
+		background: url("../imagens/fundo2.jpg");
+		position: relative;*/
+	}
+	#myCarousel{
+		width: 100%;
+		height: 100%;
+	}
+	.item{
+		width: 100%;
+		height: 10%;
+	    margin: auto;
+	}
+	.carousel-indicators{
+		margin-top: 50%;
+		margin-right: 45%
+	}
+	.container{
+		width: 66%;
+		margin-top: 1%;
+		margin-left: 17%;
+		margin-right: 17%;
+	}
+	/*---------------------tabela Fotos --------------*/
+	#tituloFotos{
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 0.5%;
+	}
+	table, td {
+		border: 8px transparent solid;
+		
+	}
+	table {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 4%;
+		margin-right: 10%;
+	}
+	td{	
+		width: 30%;
+		height: 40%;
+	}
+	#albumFotos1{
+		width: 100%;
+		height: 30%;
+	}
+	#albumFotos2{
+		width: 100%;
+		height: 40.9%;
+	}
+	#albumFotos3{
+		width: 100%;
+		height: 30.%;
+	}
+	#albumFotos4{
+		width: 100%;
+		height: 40%;
+	}
+	#albumFotos5{
+		width: 100%;
+		height: 25%;
+	}
+	#albumFotos6{
+		width: 100%;
+		height: 28.7%;
+	}
+	#albumFotos7{
+		width: 100%;
+		height: 59%;
+	}
+	#albumFotos8{
+		width: 100%;
+		height: 40%;
+	}
+	#albumFotos9{
+		width: 100%;
+		height: 44.3%;
+	}
+	#albumFotos10{
+		width: 100%;
+		height: 65%;
+	}
+	#albumFotos11{
+		width: 100%;
+		height: 37.7%;
+	}
+	#albumFotos12{
+		width: 100%;
+		height: 37.7%;
+	}
+/*-----------------------------------------------Video----------------------------------------------*/
+	#divVideo{
+		height: 27em;
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+	#videoYouTube{
+		width: 62%;
+		height: 94.5%;
+		margin-left: 19%;
+		margin-top: 0.5%;
+		margin-right: 19%;
+	}
+	#divVideo2{
+		height: 27em;
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+	#videoYouTube2{
+		width: 62%;
+		height: 94.5%;
+		margin-left: 19%;
+		margin-top: 1%;
+		margin-right: 19%;
+	}
+	.rodapeVideo{
+		position: relative;
+		background-color: #352F2F;
+		width: 62%;
+		height: 6%;
+		margin-left: 19%;
+		margin-right: 19%;
+		margin-bottom: 1%;
+	}
+
+}
